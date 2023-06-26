@@ -2,7 +2,7 @@
 
 :root {
     --orange: #FF900E;
-    --gray: #FF900E;
+    --gray: #727272;
     --white: #FFFFFF;
     --black: #131313;
     --primary-font: font-family: 'Open Sans', sans-serif;
@@ -86,4 +86,41 @@ nav > ul > li > a:hover {
 }
 .btn-explore:hover {
     cursor: pointer;
+}
+
+.feature-container {
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature-container > .img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 15px;
+    width: 50%;
+}
+
+.feature-container .img-container > img {
+    height: 250px;
+    width: 250px;
+}
+
+.feature-container > .text-container {
+    width: 40%;
+}
+
+.feature-title {
+    font-size: 35px;
+    line-height: 1.3;
+}
+
+.feature-details {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
