@@ -13,6 +13,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -75,14 +76,17 @@ nav > ul > li > a:hover {
     width: 100%;
 }
 
-.btn-explore {
+.btn {
     color: var(--white);
     background-color: var(--orange);
     border: none;
+    font-weight: bold;
+}
+
+.btn-explore {
     border-radius: 5px;
     padding: 12px 24px;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 .btn-explore:hover {
     cursor: pointer;
@@ -123,4 +127,41 @@ nav > ul > li > a:hover {
     margin-top: 10px;
     margin-bottom: 15px;
     line-height: 1.4;
+}
+
+.feature-two-section {
+    height: 100vh;
+}
+
+.feature-two-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.feature-two-container > .text-container {
+    width: 45%;
+}
+
+.feature-two-container > .img-container {
+    width: 50%;
+}
+
+.feature-two-container-title {
+    border-left: 3px solid var(--orange);
+    padding-left: 10px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.feature-two-details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.btn-experience {
+    margin-top: -500px;
+    margin-left: 600px;
+    padding: 30px 40px;
 }
